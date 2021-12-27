@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: rgba(229, 235, 241, 0.88);
+
+    min-width: 800px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabeçalho-imagem {
+    height: 30px;
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabeçalho-menu-item {
+    font-family: 'Alata', sans-serif;
+    color: #275F97;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.conteudo {
+    background: #08213F;
+    margin-bottom: 0px;
+    padding:20px;
+}
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 70px;
+    margin-top: 50px;
+    
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Alata', sans-serif;
+    color: #FFFFFF;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Alata', sans-serif;
+    color: #FFFFFF;
+    font-weight:50;
+    font-size: 18px;
+}
+
+.conteudo-principal-escrito-botao {
+    background: #479EF0;
+    border-radius: 26.25px;
+    width: 170px;
+    height: 45px;
+    border: none;
+    font-family: 'Alata', sans-serif;
+    color: #FFFFFF;
+    font-weight:50;
+    font-size: 15px;
+    margin-left: 150px;
+    margin-top:15px ;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: #FEBB94;;
+}
+
+.conteudo-principal-smartphone {
+  margin-top: 30px;    
+}
+
+.conteudo-secundário {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.conteudo-secundário-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    font-family: 'Alata', sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.conteudo-secundário-escrito-primeiro {
+    font-family: 'Alata', sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.conteudo-secundário-escrito-segundo {
+    font-family: 'Alata', sans-serif;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.rodape {
+    padding: 35px;
+    background: #E5EBF1;
+    padding-bottom: 35px;
+}
+
+.rodape-imagem {
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 auto;
+}
