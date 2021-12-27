@@ -1,1 +1,1 @@
-testando este arquivo
+Landing Page criada para estudo de Ui Design e desenvolvimento Front-end utilizando linguagem HTML E CSS.
